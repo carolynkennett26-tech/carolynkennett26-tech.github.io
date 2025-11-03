@@ -84,7 +84,7 @@ html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
 }
 
 /* Two-column grid for Web Projects */
-.grid {
+.web-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 1.5rem;
