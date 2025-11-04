@@ -166,3 +166,9 @@ html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
   .about-right{ text-align:center; }
 }
 
+/* Headshot Settings */
+/* Nudge the headshot so more forehead is visible */
+.avatar{
+  object-position: 50% 20%;  /* center horizontally, show more from the top */
+}
+
