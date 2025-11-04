@@ -1,14 +1,15 @@
 :root{
-  --brand: #2f7a3d;
-  --brand-2: #2a6c36;  /* darker stripe */
-  --ink: #222;
-  --muted: #6b6b6b;
-  --panel-bg: #fff;
-  --bg: #f6f7f6;
+  --brand: #1f3c88;     
+  --brand-2: #182f6c;    
+  --ink: #1b1b1b;        
+  --muted: #60646b;      
+  --panel-bg: #ffffff;  
+  --bg: #f4f5f8;         
   --radius: 14px;
-  --shadow: 0 10px 26px rgba(0,0,0,.08);
+  --shadow: 0 10px 26px rgba(0,0,0,.07);
   --maxw: 960px;
 }
+
 
 * { box-sizing: border-box; }
 html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
