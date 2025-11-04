@@ -15,20 +15,11 @@
 html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height:1.6;}
 
-/* ----- HEADER with vertical green bands like your screenshot ----- */
 .site-header{
-  color:#fff;
-  background:
-    linear-gradient(90deg,
-      var(--brand) 0%, var(--brand) 12.5%,
-      var(--brand-2) 12.5%, var(--brand-2) 25%,
-      var(--brand) 25%, var(--brand) 37.5%,
-      var(--brand-2) 37.5%, var(--brand-2) 50%,
-      var(--brand) 50%, var(--brand) 62.5%,
-      var(--brand-2) 62.5%, var(--brand-2) 75%,
-      var(--brand) 75%, var(--brand) 87.5%,
-      var(--brand-2) 87.5%, var(--brand-2) 100%);
+  color: #fff;
+  background: var(--brand);
 }
+
 .header-inner{
   max-width: var(--maxw);
   margin: 0 auto;
