@@ -160,3 +160,21 @@ html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
   font-size:.85rem; padding:.25rem .5rem; border-radius:999px; background:#eef5f0; color:#2c3e34; border:1px solid #d9e6df;
 }
 
+/* Avatar (circle headshot) */
+.avatar{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+  border: 3px solid #e8eee9;
+
+  /* For non-square images, keep this to avoid distortion */
+  object-fit: cover;
+  object-position: 50% 50%;   /* adjust later if needed */
+}
+
+/* A touch larger on big screens */
+@media (min-width: 1100px){
+  .avatar{ width: 200px; height: 200px; }
+}
