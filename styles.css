@@ -160,18 +160,3 @@ html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
   font-size:.85rem; padding:.25rem .5rem; border-radius:999px; background:#eef5f0; color:#2c3e34; border:1px solid #d9e6df;
 }
 
-/* Responsive */
-@media (max-width: 900px){
-  .about{ grid-template-columns: 1fr; }
-  .about-right{ text-align:center; }
-}
-
-/* Headshot Settings */
-/* Nudge the headshot so more forehead is visible */
-.avatar{
-  object-position: 50% 20%;  /* center horizontally, show more from the top */
-}
-
-@media (min-width: 1000px){
-  .avatar{ width: 200px; height: 200px; }
-}
