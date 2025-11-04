@@ -172,3 +172,6 @@ html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
   object-position: 50% 20%;  /* center horizontally, show more from the top */
 }
 
+@media (min-width: 1000px){
+  .avatar{ width: 200px; height: 200px; }
+}
