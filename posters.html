@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Carolyn Kennett | AAG Posters</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Image box styling to maintain equal height and white borders */
+    .photo-box {
+      width: 100%;
+      height: 400px; /* uniform height for both photos */
+      background-color: white;
+      border: 1px solid #e8e8e8;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .photo-box img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain; /* show full image */
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
 
@@ -27,15 +48,13 @@
     <h2>AAG Posters</h2>
     <p class="note">
       Conference posters presented at the American Association of Geographers (AAG) Annual Meetings.
-      I represented Texas Christian University as an undergraduate student in the 2024 and 2025 conferences. Learn more about each project
-      below and download my final posters.
+      Each project explores a distinct application of GIS and data visualization in real-world contexts.
     </p>
 
     <div class="web-grid">
 
       <!-- AAG 2025 -->
       <article class="card media">
-        <img src="detriot.JPG" alt="AAG 2025 poster thumbnail – Riverside crime patterns" style="border-radius:10px; border:1px solid #e8e8e8;">
         <div class="content">
           <h3>Riverside Crime Patterns near Schools, Parks, and Business Districts<br>(AAG 2025 – Detroit)</h3>
           <p>
@@ -55,19 +74,20 @@
 
           <hr class="divider">
           <h4>Conference Photo</h4>
-          <img src="detriot.JPG" alt="AAG 2025 conference photo" style="width:100%; border-radius:10px; border:1px solid #e8e8e8; object-fit:cover;">
+          <div class="photo-box">
+            <img src="detriot.JPG" alt="AAG 2025 conference photo in Detroit">
+          </div>
         </div>
       </article>
 
       <!-- AAG 2024 -->
       <article class="card media">
-        <img src="honolulu.jpeg" alt="AAG 2024 poster thumbnail – Rome accessibility" style="border-radius:10px; border:1px solid #e8e8e8;">
         <div class="content">
           <h3>Tourist Accessibility at Three Roman Heritage Sites<br>(AAG 2024 – Honolulu)</h3>
           <p>
             This poster evaluated accessibility and visitor accommodations at three iconic Roman sites:
-            the Roman Forum, Capitoline Hill, and the Victor Emmanuel Monument. All data was collected in Fall 2023 while I studied
-            abroad in Rome for four months.
+            the Roman Forum, Capitoline Hill, and the Victor Emmanuel Monument. It highlights challenges
+            for mobility-impaired visitors and suggests practical improvements.
           </p>
           <ul>
             <li><strong>Scope:</strong> Pathways, signage, ramps, elevators, and ticketing access.</li>
@@ -80,7 +100,9 @@
 
           <hr class="divider">
           <h4>Conference Photo</h4>
-          <img src="honolulu.jpeg" alt="AAG 2024 conference photo" style="width:100%; border-radius:10px; border:1px solid #e8e8e8; object-fit:cover;">
+          <div class="photo-box">
+            <img src="honolulu.jpeg" alt="AAG 2024 conference photo in Honolulu">
+          </div>
         </div>
       </article>
 
