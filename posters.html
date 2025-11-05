@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
 
   <style>
-    /* Image box styling for consistent photo presentation */
+    /* CSS will go here for some reason */
     .photo-box {
       width: 100%;
       height: 400px; /* consistent height for both photos */
@@ -18,6 +18,7 @@
       justify-content: center;
       align-items: center;
       overflow: hidden;
+      margin-bottom: 1rem; /* spacing below image */
     }
 
     .photo-box img {
@@ -40,7 +41,7 @@
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- Header (yay back to HTML) -->
   <header class="site-header">
     <div class="header-inner">
       <h1>Carolyn Kennett</h1>
@@ -68,6 +69,10 @@
 
       <!-- AAG 2025 -->
       <article class="card media">
+        <div class="photo-box">
+          <img src="detriot.JPG" alt="AAG 2025 conference photo in Detroit" loading="lazy">
+        </div>
+
         <div class="content">
           <h3>Riverside Crime Patterns near Schools, Parks, and Business Districts<br>(AAG 2025 – Detroit)</h3>
           <p>
@@ -85,17 +90,15 @@
           <div class="links">
             <a class="cta" href="AAG 2025.ppt" target="_blank" rel="noopener">Open Poster (PPT)</a>
           </div>
-
-          <hr class="divider">
-          <h4>Conference Photo</h4>
-          <div class="photo-box">
-            <img src="detriot.JPG" alt="AAG 2025 conference photo in Detroit" loading="lazy">
-          </div>
         </div>
       </article>
 
       <!-- AAG 2024 -->
       <article class="card media">
+        <div class="photo-box">
+          <img src="honolulu.jpeg" alt="AAG 2024 conference photo in Honolulu" loading="lazy">
+        </div>
+
         <div class="content">
           <h3>Tourist Accessibility at Three Roman Heritage Sites<br>(AAG 2024 – Honolulu)</h3>
           <p>
@@ -111,12 +114,6 @@
 
           <div class="links">
             <a class="cta" href="AAG Template Final.pdf" target="_blank" rel="noopener">Open Poster (PDF)</a>
-          </div>
-
-          <hr class="divider">
-          <h4>Conference Photo</h4>
-          <div class="photo-box">
-            <img src="honolulu.jpeg" alt="AAG 2024 conference photo in Honolulu" loading="lazy">
           </div>
         </div>
       </article>
