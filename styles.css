@@ -148,9 +148,16 @@ html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
   border: 3px solid #e8eee9;
 }
 .badges{ display:flex; gap:.4rem; flex-wrap:wrap; justify-content:center; }
-.badge{
-  font-size:.85rem; padding:.25rem .5rem; border-radius:999px; background:#eef5f0; color:#2c3e34; border:1px solid #d9e6df;
+
+.badge {
+  font-size: .85rem;
+  padding: .25rem .5rem;
+  border-radius: 999px;
+  background: #e6f1fb; /* light blue background */
+  color: #1f3c88; /* your brand blue for text */
+  border: 1px solid #c8def7; /* subtle border */
 }
+
 
 /* Avatar (circle headshot) */
 .avatar{
