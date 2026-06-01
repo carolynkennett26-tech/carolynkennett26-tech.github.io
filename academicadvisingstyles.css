@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Fira+Code:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&family=Merienda:wght@300..900&display=swap');
+    
+/* Google fonts, choose your font, embdeded code, click @import, copy ONLY the @import line of code above the font family
+* then, in your code between the{} symbols, copy and paste the "font family" that it says in the Google Fonts website. */
+
+body {
+    background-color: lavender;
+}
+
+h1 {
+    color: white;
+    font-family: "Aclonica", sans-serif;
+    font-size: 3em;
+}
+/*this is for the headers of banner_small*/
+h2 {
+    color: #4D1979;
+    font-family: sans-serif;
+}
+/*this is for the headers of each subsection in the website pages*/
+
+h3 {
+    color: black;
+    font-family: "Fira Code", monospace;  
+    font-size: 15px;
+}
+/*this is for the email font of my personal page*/
+
+
+h4 {
+    color: #4D1979;
+    font-family: "Aclonica", sans-serif;
+    color: #4D1979;
+    font-size: 4em;
+}
+/*this is for the header of banner_big*/
+
+h5 {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: mediumpurple;
+    font-size: 20px;
+}
+/*this is for the the subhead font of About Me Page*/
+
+h7 {
+    color: black;
+    font-family: "Aclonica", sans-serif;
+    font-size: 3.5em;
+}
+/*this is for the header of banner_ref*/
+
+h8 {
+    color: white;
+    font-family: "Aclonica", sans-serif;
+    font-size: 3.5em;
+}
+/*this is for the header of banner_me*/
+
+p {
+     font-family:sans-serif;
+     line-height: 1.4em;
+     font-size: 15px
+}
+
+li {
+     font-family:sans-serif;
+     line-height: 1.4em;
+     font-size: 15px
+}
+
+figcaption{
+     font-family:sans-serif;
+     line-height: 1.4em;
+     font-size: 12px
+}
+
+.container {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav {
+    position: -webkit-sticky; /* For safari */
+    position: sticky;
+    top: 0; /* set to the top of the viewpoint */
+    z-index: 1000; /* ensures the navbar is above other content */
+    
+	background-color: #4d1979;
+	color: white;
+	font-size: 0.75em;
+	font-family: "Merienda", cursive;
+	padding-left: 10%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+footer {
+    
+	background-color: #4d1979;
+	color: white;
+	font-size: 0.75em;
+	font-family: "Merienda", cursive;
+	padding-left: 10%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+/* unvisited link */
+footer a:link {
+  color: white;
+}
+
+/* visited link */
+footer a:visited {
+  color: green;
+}
+
+/* mouse over link */
+footer a:hover {
+  color: grey;
+}
+
+/* selected link */
+footer a:active {
+  color: blue;
+}
+
+a:hover {
+  color: rebeccapurple;
+}
+
+
+/* unvisited link */
+nav a:link {
+  color: white;
+}
+
+/* visited link */
+nav a:visited {
+  color: white;
+}
+
+/* mouse over link */
+nav a:hover {
+  color: grey;
+}
+
+/* selected link */
+nav a:active {
+  color: cadetblue;
+}
+
+
+.banner_big{
+background-color: darkgray;
+min-height: 40vh;
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+    
+background-image: url(images/desk2.jpg);
+background-size: cover;
+background-position: center;
+    
+}
+
+.banner_small {
+background-color: darkgray;
+min-height: 30vh;
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+    
+background-image:url(images/lavendar.jpg); 
+background-size: cover;
+background-position: center;
+}
+
+.banner_me {
+background-color: darkgray;
+min-height: 30vh;
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+    
+background-image:url(images/bigben.jpeg); 
+background-size: cover;
+background-position: center;
+}
+
+
+.banner_ref {
+background-color: darkgray;
+min-height: 30vh;
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+    
+background-image:url(images/paper.jpg); 
+background-size: cover;
+background-position: center;
+}
